@@ -1,0 +1,26 @@
+.container {
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 40vh;
+  color: #079ad9;
+  border: solid 1px rgb(29, 55, 253);
+  border-radius: 10px;
+  width: 120vh;
+  background-color: white;
+  animation: fadeIn 2s;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  width: 100vh;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
